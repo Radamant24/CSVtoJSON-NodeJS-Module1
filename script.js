@@ -9,7 +9,6 @@ csv()
 .fromFile(csvFilePath)
 .on('json',(jsonObj)=>{
     ObjectJSON.push(jsonObj)
-
 })
 .on('done',(error)=>{
 	if (error) { return error}
